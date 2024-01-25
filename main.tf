@@ -3,7 +3,7 @@ resource "aws_vpc" "Kenny-VPC" {
   cidr_block = "10.0.0.0/16"
  instance_tenancy = "default"
   tags = {
-  Name = "Kenny-VPC"
+  Name = "Kenny-2-VPC"
 }
 }
 #Public Subnets for VPC
